@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.num {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+ }
+
+article {
+    margin-bottom: 5rem;
+}
+
+h2 {
+    margin-bottom: 1.6rem;
+}
+
+.el1 {
+    background-color: #CDDC39;
+}
+
+.el2 {
+    background-color: #388E3C;
+}
+
+.el3 {
+    background-color: #C8E6C9;
+}
+
+.container {
+    display: flex;
+}
+
+.ex1_3 {
+    justify-content: space-evenly;
+}
+
+.ex1_4 {
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.ex1_5 {
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.ex1_6 {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ex1_7 {
+    height: 400px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.ex1_8 {
+    height: 400px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.el_ex1_8 {
+    order: 1;
+}
+
+.el_ex2_8 {
+    order: 0;
+}
+
+.el_ex3_8 {
+    order: 2;
+}
+
+.ex1_9 {
+    flex-direction: column;
+}
+
+.ex1_10 {
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.ex1_11 {
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.ex1_12 {
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.el1_ex1_12 {
+    order: 1;
+}
+
+.el2_ex1_12 {
+    order: 2;
+}
+
+.el3_ex1_12 {
+    order: 0;
+}

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.num {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+article {
+    margin-bottom: 5rem;
+}
+
+h2 {
+    margin-bottom: 1.6rem;
+}
+
+.el1, .el6 {
+    background-color: #CDDC39;
+}
+
+.el2, .el7 {
+    background-color: #388E3C;
+}
+
+.el3, .el8 {
+    background-color: #C8E6C9;
+}
+
+.el4, .el9 {
+    background-color: #4CAF50;
+}
+
+.el5 {
+    background-color: #212121;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+}
+
+.ex2_1 {
+    flex-wrap: wrap;
+}
+
+.ex2_1 > div {
+    width: 25%;
+}
+
+.ex2_2 {
+    flex-wrap: wrap;
+}
+
+.ex2_2 > div {
+    width: 25%;
+    justify-items: center;
+    align-content: center;
+}
