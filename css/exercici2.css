@@ -64,3 +64,74 @@ h2 {
     justify-items: center;
     align-content: center;
 }
+
+.ex2_3 {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.ex2_3 > div {
+    width: calc(25% - 3.8px);
+    justify-items: center;
+    align-content: center;
+}
+
+.ex2_4 {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.ex2_4 > div {
+    width: calc(25% - 3.8px);
+    justify-items: center;
+    align-content: center;
+}
+
+.ex2_4 > div:nth-child(5) {
+    width: 100%;
+}
+
+.ex2_5 {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+    row-gap: 15px;
+}
+
+.ex2_5 > div {
+    width: calc(25% - 3.8px);
+    justify-items: center;
+    align-content: center;
+}
+
+.ex2_5 > div > img {
+    width: 100%;
+}
+
+.ex2_5 > div:nth-child(5) {
+    width: 100%;
+}
+
+.ex2_6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.ex2_6 > div {
+    width: 33%;
+    height: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex2_6 > div:nth-child(9) {
+    height: 100%;
+}
